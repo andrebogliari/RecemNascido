@@ -33,7 +33,7 @@ test <- data[-train.index,]
 #Aplicando a árvore de decisão
 
 
-  fit <- rpart(age ~ low + ftv + lwt + smoke + ptl + ht + race + ui, data = train, method = "class")
+  fit <- rpart(low ~ lwt + age + race + ptl + smoke + ht + ui + ftv, data = train, method = "class")
 summary(fit)
 
 # Testando modelo

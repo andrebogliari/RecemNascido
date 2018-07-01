@@ -64,7 +64,5 @@ table(prediction, test$low)
 prop.table((table(prediction, test$low)))
 
 
-
-summary(cars)
 ```
 
